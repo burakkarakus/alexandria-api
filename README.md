@@ -1,4 +1,4 @@
-With this API, you can easily have a library management application up and running. You can see [db-diagram](hthttps://github.com/burakkarakus/alexandria-api/blob/main/db-diagram.md) and [api-diagram](https://github.com/burakkarakus/alexandria-api/blob/main/api-diagram.md) in mermaid mode, by opening them in github or using [mermaid.live](). 
+With this API, you can easily have a library management application up and running. You can see [db-diagram](https://github.com/burakkarakus/alexandria-api/blob/main/db-diagram.md) and [api-diagram](https://github.com/burakkarakus/alexandria-api/blob/main/api-diagram.md) in mermaid mode, by opening them in github or using [mermaid.live](). 
 
 
 Note that it is not CNCF ready, as it is out of scope for this interview case.
