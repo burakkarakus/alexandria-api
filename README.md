@@ -9,3 +9,8 @@ To make it cloud-native, the following actions could be taken:
 3. Implement the ELK stack and Prometheus stack to manage logging, monitoring, and tracing.
 4. The following technologies were not used due to lack of experience:
     - Webpack & Babel
+
+
+To run api locally in docker:
+1. docker compose build --no-cache 
+1. docker compose up
