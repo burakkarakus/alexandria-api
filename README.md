@@ -1,7 +1,11 @@
-With this API, you can easily have up and running library management application,
-which is not CNCF ready, because it is out of scope of this interview case.
+With this API, you can easily have a library management application up and running. You can see [db-diagram](hthttps://github.com/burakkarakus/alexandria-api/blob/main/db-diagram.md) and [api-diagram](https://github.com/burakkarakus/alexandria-api/blob/main/api-diagram.md) in mermaid mode, by opening them in github or using [mermaid.live](). 
 
-To make it cloud native, I could have taken the actions below:
-1. Stateless systems such as Redis and Postgre must be in cloud (or at least on prem but in different dockerized envs)
-2. K8S is a must, but for now this application can work in single container. (because we don't use k8s, we could use pm2)
-3. 
+
+Note that it is not CNCF ready, as it is out of scope for this interview case.
+
+To make it cloud-native, the following actions could be taken:
+1. Stateless systems such as Redis and PostgreSQL must be in the cloud (or at least on-prem but in different dockerized environments).
+2. Kubernetes (K8S) is a must, but for now, this application can work in a single container. (Since we don't use K8S, we could use PM2).
+3. Implement the ELK stack and Prometheus stack to manage logging, monitoring, and tracing.
+4. The following technologies were not used due to lack of experience:
+    - Webpack & Babel
